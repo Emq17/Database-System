@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.imgur.com/SMwxUj3.png" alt="Logo"/>
+<img src="https://i.imgur.com/EWUko88.png" alt="Logo"/>
 </p>
 
 <h1 align="center">Sample Database Management</h1>
