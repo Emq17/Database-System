@@ -1,7 +1,14 @@
-# Sample-Database-Management
+<p align="center">
+<img src="https://i.imgur.com/Kme1UTO.png" alt="Logo"/>
+</p>
 
-Database management systems are critical to the day-to-day operations of many enterprises in the information technology field. Gathering the necessary requirements for the database, transforming these requirements into a database design, actualizing the database based on the design, populating the database with data, and performing various manipulations on the database are the fundamental steps in using a database management system. The goal here is to show you simple duties required for managing a sample database.
+<h1 align="center">Sample Database Management</h1>
 
+- Database management systems are critical to the day-to-day operations of many enterprises in the information technology field.
+- Gathering the necessary requirements for the database, transforming these requirements into a design, populating the database with data, and performing various manipulations are the fundamental steps in using a database management system.
+- The goal here is to show you simple duties required for managing a sample database.
+
+<h2></h2>
 
 Create the Schema/Database:
 
@@ -33,7 +40,10 @@ Add Columns:
 
 Issue with New Column:
 
-In order to make this issue correct, we would have to utilize the function of altering our “photograph” table with the query included in the screenshot above (ALTER TABLE photograph ADD FOREIGN KEY (userid) REFERENCES user(id);. This ensures that we successfully add a foreign key within the database and help set the relationship right between the two tables. After accomplishing the previous task in Prompt #7 within the assignment, we’ve taken the primary key of the “users” table and inserted it into the “photograph” table which justifies it as a foreign key. Knowing this, all we have to do now is establish the relationship by running Prompt #8. Overall, to execute this without updating anything may perform as intended and is not entirely incorrect but concerns do arise regarding data integrity issues as stated in the directions in the prompt given.
+- In order to make this issue correct, we would have to utilize the function of altering our “photograph” table with the query included in the screenshot above (ALTER TABLE photograph ADD FOREIGN KEY (userid) REFERENCES user(id);. 
+- This ensures that we successfully add a foreign key within the database and help set the relationship right between the two tables.
+- After accomplishing the previous task in Prompt #7 within the assignment, we’ve taken the primary key of the “users” table and inserted it into the “photograph” table which justifies it as a foreign key. Knowing this, all we have to do now is establish the relationship by running Prompt #8.
+- Overall, to execute this without updating anything may perform as intended and is not entirely incorrect but concerns do arise regarding data integrity issues as stated in the directions in the prompt given.
 
 ![Picture1](https://github.com/Emq17/Sample-Database-Management/assets/147126755/fa85b34e-b021-46bc-bbd4-5849e406aa6f)
 
